@@ -29,22 +29,87 @@
 <body>
     <header>
         
-        <div class="navbar navbar-expand-lg">
-            <div class="navbar-collapse">
-                <div class="na"></div>
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">achievments</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">contact</a>
+            </li>  
+        </ul>
+        <div ><!--navbar-->
+            <div class="navbar navbar-expand-lg justify-content-lg-start ">
+                <div class="container">
+                    <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="menu">
+                       <ul class="navbar-nav ">
+                            <li class="nav-item ">
+                                <a href="" class="nav-link active">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Projects</a>
+                            </li>
+                             <li class="nav-item">
+                                  <a href="" class="nav-link">achievments</a>
+                            </li>
+                            <li class="nav-item">
+                               <a href="" class="nav-link">contact</a>
+                            </li>   </ul>
+                    </div>
+                </div>
             </div>
+
 
         </div>
     </header>
 
    <main>
         <section><!--introduction-->
-            <div>
+        <div class="row">
+            <div class="col-lg-6">
+               <div><!--title-->
+                <h2>Hi,i'm Emroz Khatik</h2>
+               </div>
+               <div><!--intor-body-->
+                <p>passionate full stack developer building modern web applications with JavaScript and AI.
+                    Focused on delivering scalable solutions and writing clean, maintainable code.
+                </p>
+               
+                <div> <!--intro-footer -->
+                    <button type="button" class="border border-1 " data-bs-target="#get_int_touch">Get In Touch</button><!--go to get touch-->
+                    <button type="button" class="border border-1" data-bs-target="">view Projects</button>
+
+                </div>
+
+               </div>
                 
             </div>
+            <div class="col-lg-6">
+                <div >
+                    <img src="/public/images/409797.png" alt="" class="w-100">
+                </div>
+            </div>
+
+        </div>
+          
 
         </section>
-       <section> <!--skilss & expertise-->
+       <section class="border border-2 border-primary"> <!--skilss & expertise-->
         <div class="container">
             <h2>
                <span>Skills & </span>
@@ -53,7 +118,7 @@
             <div class="row"><!--first row cards-->
                 <div class="col-md-6">
                     <div class="card">
-                        <div class="card-header"></div>
+                        <!-- <div class="card-header"></div> -->
                         <div class="card-body"></div>
                     </div>
 
@@ -61,7 +126,7 @@
 
                 <div class="col-md-6">
                     <div class="card">
-                        <div class="card-header"></div>
+                        <!-- <div class="card-header"></div> -->
                         <div class="card-body"></div>
                     </div>
 
@@ -71,7 +136,7 @@
             <div class="row"><!--second row cards-->
                 <div class="col-md-6">
                     <div class="card">
-                        <div class="card-header"></div>
+                        <!-- <div class="card-header"></div> -->
                         <div class="card-body"></div>
                     </div>
 
@@ -167,16 +232,6 @@
           
             </div>
         </section>
-
-
-        <div><!--Featured Projects-->
-            <div>
-
-            </div>
-
-
-
-        </div>
 
 
         <div class="border border-2 border-secondary m-2"><!--resume & educations-->
@@ -289,8 +344,8 @@
                 </div>
             </div>
 
-    <div class="border border-1 border-danger m-2"> <!--get in touch-->
-        <div>
+    <div class="border border-1 border-danger m-2" id="get_int_touch"> 
+        <div><!--get in touch-->
             <h1>Get in Touch</h1>
             <p>Have a question or want to work together ? Feel free to reah out!</p>
             
