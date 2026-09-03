@@ -29,23 +29,7 @@
 <body>
     <header>
         
-        <ul class="nav">
-            <li class="nav-item">
-                <a href="" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-                <a href="" class="nav-link">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a href="" class="nav-link">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a href="" class="nav-link">achievments</a>
-            </li>
-            <li class="nav-item">
-                <a href="" class="nav-link">contact</a>
-            </li>  
-        </ul>
+
         <div ><!--navbar-->
             <div class="navbar navbar-expand-lg justify-content-lg-start ">
                 <div class="container">
@@ -54,7 +38,8 @@
                     </button>
 
                     <div class="collapse navbar-collapse" id="menu">
-                       <ul class="navbar-nav ">
+                        <div class="container">
+                            <ul class="navbar-nav ">
                             <li class="nav-item ">
                                 <a href="" class="nav-link active">About</a>
                             </li>
@@ -69,7 +54,10 @@
                             </li>
                             <li class="nav-item">
                                <a href="" class="nav-link">contact</a>
-                            </li>   </ul>
+                            </li>   
+                        </ul>
+                        </div>
+                       
                     </div>
                 </div>
             </div>
@@ -79,9 +67,9 @@
     </header>
 
    <main>
-        <section><!--introduction-->
+        <section class="hero"><!--introduction-->
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-6">
                <div><!--title-->
                 <h2>Hi,i'm Emroz Khatik</h2>
                </div>
@@ -91,17 +79,31 @@
                 </p>
                
                 <div> <!--intro-footer -->
-                    <button type="button" class="border border-1 " data-bs-target="#get_int_touch">Get In Touch</button><!--go to get touch-->
-                    <button type="button" class="border border-1" data-bs-target="">view Projects</button>
-
+                        <!--go to get touch-->
+                    <a href="#get_in_touch" class="btn border border-1">Get In Touch</a>
+                    <a href="#projects" class="btn border border-1">View Projects</a>
+                </div>
+                <div id="intro_btn_travel">
+                    <a  href="https://github.com/emroz26k" >
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="" >
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="" >
+                        <i class="bi bi bi-envelope"></i>
+                    </a>
+                    <a href="">
+                        <img src="/public/images/leetcode.svg" alt="">
+                    </a>
                 </div>
 
                </div>
                 
             </div>
-            <div class="col-lg-6">
+            <div class="col-6">
                 <div >
-                    <img src="/public/images/409797.png" alt="" class="w-100">
+                    <img src="/public/images/409797.png" alt="" class="w-100" id="image">
                 </div>
             </div>
 
@@ -156,18 +158,18 @@
               
        </section>
 
-        <section class="border border-2 border-primary">
+        <section  id="projects">
             <div class="container"> <!--Featured Projects-->
-                <h2>
-                    <p>Featured </p>
-                    <p>Projects</p>
+                <h2 class="project_heading">
+                    <span>Featured</span>
+                    <span>Projects</span>
                 </h2>
                 <p>A showcase of my recent work and personal projects</p>
 
                 <div class="row"> <!--first cards-->
-                    <div class="col-md-4">
-                        <div class="card border border-1 border-primary">
-                            <div class="card-header bg-success ">
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-header ">
                                 
                             </div>
 
@@ -189,7 +191,7 @@
                    
 
                  <!--second cards-->
-                    <div class="col-md-4">
+                    <div class="col-4">
                         <div class="card">
                             <div class="card-header">
 
@@ -209,7 +211,7 @@
          
 
                     <!--third cards-->
-                    <div class="col-md-4">
+                    <div class="col-4">
                         <div class="card">
                             <div class="card-header">
 
@@ -234,7 +236,7 @@
         </section>
 
 
-        <div class="border border-2 border-secondary m-2"><!--resume & educations-->
+        <div id="resume"><!--resume & educations-->
             <div>
                 <h1><p>resume ,</p><p>Education & certificate</p></h1>
                 <p>My educational background and certifications</p>
@@ -344,7 +346,7 @@
                 </div>
             </div>
 
-    <div class="border border-1 border-danger m-2" id="get_int_touch"> 
+    <section id="get_in_touch"> 
         <div><!--get in touch-->
             <h1>Get in Touch</h1>
             <p>Have a question or want to work together ? Feel free to reah out!</p>
@@ -386,21 +388,22 @@
                 
            
         </div>
-    </div>
+    </section>
    </main>
 
 
 
-   <footer class="  border border-1 border-danger " style="height: 100%; width: 100%;">
+   <footer  class="footer">
     <div class="row">
-      <div class="col-4 w-50">
-         <p>Emroz Khatik</p>
-         <p>Building innovative solutions<br>and creating exceptional digital<br>experiences.</p>
+      <div class="col-4">
+         <p id="footer_name" class="text-primary">Emroz Khatik</p>
+         <p>Building innovative solutions and creating exceptional <br> digitalexperiences.</p>
       </div>
 
         <div class="col-4">
-            <span>Qucik links</span>
-            <ul class="list-unstyled">
+            <span class="footer_heading ">Quick links</span>
+            <ul class="list-unstyled m-3">
+                
                 <li><a href="#" data-="" data-="">About</a></li>
                 <li><a href="#" data-="" data-="">skills</a></li>
                 <li><a href="#" data-="" data-="">Projects</a></li>
@@ -412,11 +415,11 @@
 
         </div>
 
-        <div class="col">
-            <p>connect</p>
+        <div class="col-4">
+            <p>Connect</p>
             <aside>
-                <span class="bi bi-github"></span>
-                <span class="bi bi-linkedin"></span>
+                <span class="bi bi-github  fs-3"></span>
+                <span class="bi bi-linkedin  fs-3"></span>
             </aside>
         </div>
 

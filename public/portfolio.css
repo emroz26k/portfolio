@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color:rgb(14, 14, 129);
+    color: white;
+}
+section{
+    padding: 80px 0;
+}
+.hero{
+   height: 80vh;
+   display: flex;
+   border-radius: 60%;
+   
+}
+.footer{
+    background:#051444;
+   
+}
+#footer_name{
+
+
+    margin-top: -10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+    
+}
+.footer .row{
+    padding: 20px;
+}
+.footer .col-4{
+    
+
+   
+}
+.footer .col-4:first-child{
+    
+    height: 150px;
+}
+.footer .col-4:nth-child(2){
+   color: white;
+ 
+
+
+}
+
+.footer .col-4:nth-child(3){
+
+
+}
+
+.footer_heading{
+
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer li{
+    margin-bottom: 10px;
+}
+.footer aside {
+  
+   display: flex;
+   gap: 20px;
+    
+    
+}
+/* projects */
+#projects{
+    
+margin-top: 10px;
+
+}
+#projects .project_heading{
+    margin-top:-20px ;
+    text-align: center;
+    /* border: 1px solid black; */
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+#projects .container{
+
+}
+
+#projects .row{
+
+}
+#projects .col-4{
+ 
+}
+#projects .col-4:first-child{
+
+}
+#projects .col-4:nth-child(2){
+
+}
+#projects .col-4:nth-child(3){
+    
+
+}
+#projects .card{
+    width: 500px;
+    height: 400px;
+   
+
+}
+#projects .card:hover{
+
+}
