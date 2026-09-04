@@ -72,44 +72,109 @@ section{
 /* projects */
 #projects{
     
-margin-top: 10px;
+padding: 60px 0;
 
 }
-#projects .project_heading{
-    margin-top:-20px ;
-    text-align: center;
-    /* border: 1px solid black; */
-    font-weight: bold;
-    font-size: 30px;
-
+#projects h2{
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
-#projects .container{
+#projects >.container>p{
+  margin-bottom: 40px;
 
 }
 
-#projects .row{
 
-}
-#projects .col-4{
- 
-}
-#projects .col-4:first-child{
-
-}
-#projects .col-4:nth-child(2){
-
-}
-#projects .col-4:nth-child(3){
-    
-
-}
 #projects .card{
-    width: 500px;
-    height: 400px;
+    height: 100%;
    
 
 }
 #projects .card:hover{
+  transform: translateY(-5px);
+}
+/* get in touch */
+#get_in_touch {
+    padding: 60px 0;
+}
+
+#get_in_touch h1 {
+    font-size: 40px;
+}
+
+#get_in_touch h1 + p {
+    margin-bottom: 40px;
+}
+#get_in_touch dd {
+    margin-bottom: 15px;
+    padding: 15px;
+}
+#get_in_touch dd a {
+    text-decoration: none;
+    color: white;
+}
+
+/* achievements */
+#achievements {
+    padding: 80px 0;
 
 }
+
+#achievements .container {
+
+}
+
+#achievements .achievement-heading {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+#achievements .achievement-heading h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+
+#achievements .achievement-heading p {
+    margin: 0;
+
+}
+#achievements .achievement-stats { 
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 40px;
+      padding:25px 10px;
+      border-radius: 12px;
+}       
+
+#achievements .achievement-stats .col-3 {
+    text-align: center;
+    padding: 20px;
+ }   
+#achievements .achievement-stats .col-3 i {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#achievements .achievement-stats .col-3 span {
+    display: block;
+    font-weight: 600;
+}
+#achievements .achievement-cards { 
+    padding: 15px;
+}         
+
+#achievements .achievement-cards .card { 
+    height: 100%;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+} 
+
+#achievements .achievement-cards .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}  
+
