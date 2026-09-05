@@ -10,8 +10,35 @@ section{
 .hero{
    height: 80vh;
    display: flex;
-   border-radius: 60%;
    
+   align-items: center;
+   
+}
+.hero .row{
+   
+    width: 100%;
+    align-items: center;
+
+}
+.hero .col-6 :first-child{
+    padding: 15px;
+}
+.hero .col-6 :last-child{
+    padding: 15px;
+}
+.hero .hero-title h2{
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: bolder;
+}
+.hero .col-6:first-child p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+.hero .col-6:first-child>div:nth-child(2)>div{
+    display: flex;
+    gap: 20px;
+    
 }
 .footer{
     background:#051444;
@@ -80,7 +107,7 @@ padding: 60px 0;
     margin-bottom: 10px;
 }
 
-#projects >.container>p{
+#projects >.container-fluid>p{
   margin-bottom: 40px;
 
 }
