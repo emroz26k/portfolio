@@ -2,12 +2,7 @@
     background-color: #051444;
     min-height: 70px;
 }
-#navbar h1{
-    color:white;
-    margin:0;
-    font-size: 32px;
-    font-weight: 700;
-}
+
 #navbar nav{
     display: flex;
     justify-content: end;
@@ -27,14 +22,20 @@
 #navbar a.active{
     color: cyan;
 }
-
+#hero .d-flex{
+    
+    align-items: center;
+    gap: 15px;
+}
 #hero h1{
+   
     color: white;
     font-size: 50px;
     font-weight: bold;
     
 }
 #hero strong{
+    
     color: white;
     font-size: 18px;
     font-weight: normal;
@@ -58,9 +59,11 @@
     justify-content: end;
 }
 #hero-right img{
-    width: 350px;
-    height: auto;
+    height: 300px;
     width: 300px;
+    border: 2px solid blue;
+    box-shadow: 0 0 20px blue;
+    border-radius: 300px;
    
 }
 #hero {
@@ -68,14 +71,89 @@
     display: flex;
     align-items: center;
     background-color:#0e0e81 ;
-    padding-inline: 60px 0;
+   
 }
 #hero .row {
     align-items: center;
 }
 #hero .btn-primary{
-    background-color: #0e0e81;
+    background-color: #051444;
     border: 1px solid #0e0e81;
     padding: 10px 24px;
     font-weight: 600;
+    transition: 0.4s;
+}
+#hero .btn-primary:hover{
+    border: 1px solid cyan;
+  
+    color: white;
+    transform: translateY(-4px);
+
+}
+#hero .btn-outline-primary{
+    background-color: navy;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 24px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+#hero .btn-outline-primary:hover{
+    background-color: cyan;
+    color: #051444;
+    transform: translateY(-4px);
+
+}
+#hero .social-icons button{
+    background:none;
+    border: 1px solid white;
+    color: white;
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    transition: 0.4s;
+    
+}
+#hero .social-icons button:hover{
+    transform:translateY(-4px);
+    border: 1px solid cyan;
+    
+    color: cyan;
+    box-shadow:0 0 10px cyan;
+}
+#hero .social-icons{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+ 
+    gap: 20px;
+}
+/* skils======================================== */
+
+#skills {
+    background-color: #051444;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+#skills .d-flex{
+  
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#skills .d-flex h1{
+    color: white;
+    font-size: 45px;
+
+}
+#skills .d-flex strong{
+    color: cyan;
+    font-size: 40px;
+}
+#skills p{
+    text-align: center;
+    color: gray;
 }
