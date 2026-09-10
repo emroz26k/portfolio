@@ -1,207 +1,81 @@
-body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif; 
-    background-color:rgb(14, 14, 129);
-    color: white;
+#navbar{
+    background-color: #051444;
+    min-height: 70px;
 }
-section{
-    padding: 80px 0;
+#navbar h1{
+    color:white;
+    margin:0;
+    font-size: 32px;
+    font-weight: 700;
 }
-.hero{
-   height: 80vh;
-   display: flex;
-   
-   align-items: center;
-   
-}
-.hero .row{
-   
-    width: 100%;
-    align-items: center;
-
-}
-.hero .col-6 :first-child{
-    padding: 15px;
-}
-.hero .col-6 :last-child{
-    padding: 15px;
-}
-.hero .hero-title h2{
-    text-transform: capitalize;
-    font-size: large;
-    font-weight: bolder;
-}
-.hero .col-6:first-child p{
-    font-size: 18px;
-    line-height: 1.6;
-}
-.hero .col-6:first-child>div:nth-child(2)>div{
+#navbar nav{
     display: flex;
-    gap: 20px;
-    
+    justify-content: end;
+    align-items: center;
 }
-.footer{
-    background:#051444;
+
+#navbar a{
    
+    color: white;
+    font-size: large;
+    font-weight: 500;
 }
-#footer_name{
+#navbar a:hover{
+    color: cyan;
 
+}
+#navbar a.active{
+    color: cyan;
+}
 
-    margin-top: -10px;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+#hero h1{
+    color: white;
+    font-size: 50px;
     font-weight: bold;
     
+}
+#hero strong{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
     
 }
-.footer .row{
-    padding: 20px;
+#hero h2{
+    color: white;
+    font-size: 28px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
 }
-.footer .col-4{
-    
+#hero p{
+    font-size: 16px;
+    line-height: 1.6;
+    color:gray;
+    max-width: 550px;
 
+}
+#hero-right{
+     display: flex;
+    justify-content: end;
+}
+#hero-right img{
+    width: 350px;
+    height: auto;
+    width: 300px;
    
 }
-.footer .col-4:first-child{
-    
-    height: 150px;
+#hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    background-color:#0e0e81 ;
+    padding-inline: 60px 0;
 }
-.footer .col-4:nth-child(2){
-   color: white;
- 
-
-
+#hero .row {
+    align-items: center;
 }
-
-.footer .col-4:nth-child(3){
-
-
-}
-
-.footer_heading{
-
-}
-.footer a{
-    text-decoration: none;
-    color: white;
-}
-
-.footer li{
-    margin-bottom: 10px;
-}
-.footer aside {
-  
-   display: flex;
-   gap: 20px;
-    
-    
-}
-/* projects */
-#projects{
-    
-padding: 60px 0;
-
-}
-#projects h2{
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-#projects >.container-fluid>p{
-  margin-bottom: 40px;
-
-}
-
-
-#projects .card{
-    height: 100%;
-   
-
-}
-#projects .card:hover{
-  transform: translateY(-5px);
-}
-/* get in touch */
-#get_in_touch {
-    padding: 60px 0;
-}
-
-#get_in_touch h1 {
-    font-size: 40px;
-}
-
-#get_in_touch h1 + p {
-    margin-bottom: 40px;
-}
-#get_in_touch dd {
-    margin-bottom: 15px;
-    padding: 15px;
-}
-#get_in_touch dd a {
-    text-decoration: none;
-    color: white;
-}
-
-/* achievements */
-#achievements {
-    padding: 80px 0;
-
-}
-
-#achievements .container {
-
-}
-
-#achievements .achievement-heading {
-    text-align: center;
-    margin-bottom: 40px;
-
-}
-
-#achievements .achievement-heading h2 {
-    font-size: 40px;
-    margin-bottom: 10px;
-
-}
-
-#achievements .achievement-heading p {
-    margin: 0;
-
-}
-#achievements .achievement-stats { 
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      margin-bottom: 40px;
-      padding:25px 10px;
-      border-radius: 12px;
-}       
-
-#achievements .achievement-stats .col-3 {
-    text-align: center;
-    padding: 20px;
- }   
-#achievements .achievement-stats .col-3 i {
-    display: block;
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-#achievements .achievement-stats .col-3 span {
-    display: block;
+#hero .btn-primary{
+    background-color: #0e0e81;
+    border: 1px solid #0e0e81;
+    padding: 10px 24px;
     font-weight: 600;
 }
-#achievements .achievement-cards { 
-    padding: 15px;
-}         
-
-#achievements .achievement-cards .card { 
-    height: 100%;
-    border-radius: 12px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-} 
-
-#achievements .achievement-cards .card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-}  
-
