@@ -138,22 +138,76 @@
 }
 
 
-#skills .d-flex{
-  
+#skills .heading{
+    display: flex;
+   
     justify-content: center;
     align-items: center;
-    gap: 15px;
+      gap: 10px;
+    
 }
-#skills .d-flex h1{
+#skills .heading h1{
     color: white;
-    font-size: 45px;
-
+    font-size: 50px;
 }
-#skills .d-flex strong{
+#skills .heading strong{
     color: cyan;
-    font-size: 40px;
+    font-size: 50px;
 }
 #skills p{
     text-align: center;
     color: gray;
+}
+#skills .card{
+    background-color: #030d2d;
+    border: 1px solid #010921;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+#skills .card-header{
+    color: white;
+    background-color: #051444;
+    border-bottom: 1px solid #010921;
+    font-weight: bold;
+
+
+}
+#skills .container span{
+    background-color: black;
+    display: inline-flex;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2px;
+    transition: 0.4s;
+    gap:5px;
+    align-items: center;
+
+}
+#skills .container span:hover{
+   
+    transform: translateY(-3px);
+    
+}
+#skills .more_skills{
+    padding: 40px;
+    
+
+}
+#skills .more_skills .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+#skills .more_skills .body span{
+    width: 100px;
+    padding: 20px;
+    margin: 5px 10px;
+    background-color: cyan;
+ 
+
 }
