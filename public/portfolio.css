@@ -211,3 +211,33 @@
  
 
 }
+/* project ===================================== */
+#project {
+    background-color: #050f30;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding: 10px;
+}
+#project .card{
+    background-color: #030d2d;
+    border: 1px solid #010921;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+#project .card:hover {
+    transform: translateY(-5px);
+
+}
+#project .project-title{
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+#project .project-date{
+    font-size: 10px;
+    color: cyan;
+    border: 1px solid cyan;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+}
