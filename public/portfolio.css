@@ -285,3 +285,112 @@ body{
 #project .card-footer button:hover {
   background-color: rgba(86, 102, 107, 0.6);
 }
+/* res_edu============================== */
+#res_edu .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#res_edu .header h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+#res_edu .header span:first-child {
+    color: white;
+}
+
+#res_edu .header span:last-child {
+    color: cyan;
+}
+
+#res_edu .header p {
+    text-align: center;
+    color: gray;
+}
+
+#res_edu .header > div{
+    display: flex;
+    gap: 15px;
+}
+
+#res_edu .header button{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    transition: 0.4s;
+}
+#res_edu .header button:hover{
+    transform: translateY(-5px);
+}
+
+#res_edu .card{
+    margin: 20px;
+    background: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: inherit;
+}
+#res_edu .card{
+    background-color: #1a2035;
+    border: none;
+    border-radius: 10px;
+    box-shadow: none;
+}
+#res_edu .card-header{
+    color: blue;
+}
+#res_edu .card-body{
+     display: flex;
+    gap: 20px;
+    color: white;
+    padding: 15px;
+}
+
+#res_edu .card-body span{
+   display: inline-flex;
+    border-radius: 10px;
+    padding: 5px;
+    gap: 10px;
+    align-items: center;
+    background-color: black;
+}
+#res_edu .card-footer{
+    color: gray;
+    
+}
+#res_edu .education > .d-flex{
+   background-color:#1a2035 ;
+   border-radius: 10px;
+   padding: 10px;
+
+}
+#res_edu .education > .d-flex> span{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+#res_edu .education > .d-flex .btn{
+    background-color: #051444;
+    color: white;
+    border: 1px solid cyan;
+    border-radius: 8px;
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+#res_edu .education > .d-flex .btn:hover{
+    background-color: cyan;
+    color: #051444;
+}
