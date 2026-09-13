@@ -385,10 +385,11 @@ body{
 #res_edu .education > .d-flex .btn{
     background-color: #051444;
     color: white;
-    border: 1px solid cyan;
+    background: pink;
     border-radius: 8px;
     padding: 8px 15px;
     transition: 0.3s;
+   
 }
 #res_edu .education > .d-flex .btn:hover{
     background-color: cyan;
