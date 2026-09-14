@@ -554,11 +554,18 @@ body{
 #G_I_T .container .row .col-lg-6:last-child .card .card-body textarea{
     margin: 5px;
     background-color: #020616;
+    color: white;
+    border-radius: 10px;
+    height: 150px;
 }
 
 #G_I_T .container .row .col-lg-6:last-child .card .card-footer .btn{
     color: white;
     background-color: green;
     width: 100%;
+    transition: 0.4s;
     
+}
+#G_I_T .container .row .col-lg-6:last-child .card .card-footer .btn:hover{
+    transform: translateY(-4px);
 }
