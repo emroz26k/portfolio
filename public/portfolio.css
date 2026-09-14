@@ -286,6 +286,11 @@ body{
   background-color: rgba(86, 102, 107, 0.6);
 }
 /* res_edu============================== */
+#res_edu {
+  background-color: #050f30;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
 #res_edu .header {
     display: flex;
     flex-direction: column;
@@ -394,4 +399,166 @@ body{
 #res_edu .education > .d-flex .btn:hover{
     background-color: cyan;
     color: #051444;
+}
+/* --------------------------------------- */
+#achievement {
+  background-color: #050f30;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+#achievement .header h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+#achievement .header h2 span:first-child{
+    color: white;
+    margin-right: 7px;
+}
+#achievement .header h2 span:last-child{
+    color: cyan;
+}
+#achievement p{
+    text-align: center;
+    color: gray;
+
+}
+#achievement  .container .row .col-3 .card{
+    margin-top: 50px;
+    background: #000;
+    border-radius: 20px;
+    height: 200px;
+    transition: 0.4s;
+   
+}
+#achievement  .container .row .col-3 .card:hover{
+    transform: translateY(-4px);
+
+
+}
+#achievement .container:last-child .row .col-lg-4 .card{
+    height: 300px;
+    background-color: rgba(173, 216, 230, 0.6);
+    border-radius: 20px;
+    transition: 0.4s;
+}
+#achievement .container:last-child .row .col-lg-4 .card:hover{
+    transform: translateY(-4px);
+    
+}
+/* ----------------------------------------------------------------- */
+#G_I_T{
+    background-color: #050f30;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 20px;
+}
+
+#G_I_T .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#G_I_T .header span:first-child{
+    font-size: 40px;
+    color: white;
+}
+
+#G_I_T .header span:last-child{
+    font-size: 40px;
+    color: cyan;
+}
+
+#G_I_T p{
+    text-align: center;
+    color: gray;
+}
+
+#G_I_T .contact-item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: rgba(173, 216, 230, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+#G_I_T .contact-icon{
+    font-size: 24px;
+    color: cyan;
+}
+#G_I_T .contact-label{
+    font-size: 20px;
+    color: white;
+}
+#G_I_T .contact-value{
+    font-size: 16px;
+    color: wheat;
+}
+#G_I_T .connect-me{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#G_I_T .connect-me .btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+#G_I_T .connect-me .btn:hover{
+    transform: translateY(-3px);
+}
+#G_I_T .connect-me .bi{
+    font-size: 20px;
+}
+/* -------------- */
+
+#G_I_T .container .row .col-lg-6:last-child .card{
+    background-color: rgba(173, 216, 230, 0.1);
+    border: none;
+    border-radius: 20px;
+    box-shadow: none;
+    padding: 20px;
+}
+
+#G_I_T .container .row .col-lg-6:last-child .card .card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+}
+
+#G_I_T .container .row .col-lg-6:last-child .card .card-header span{
+    color: white;
+}
+
+#G_I_T .container .row .col-lg-6:last-child .card .card-header i{
+    color: cyan;
+}
+
+#G_I_T .container .row .col-lg-6:last-child .card .card-body strong{
+    display: inline-block;
+    color: white;
+    margin: 10px;
+}
+
+#G_I_T .container .row .col-lg-6:last-child .card .card-body textarea{
+    margin: 5px;
+    background-color: #020616;
+}
+
+#G_I_T .container .row .col-lg-6:last-child .card .card-footer .btn{
+    color: white;
+    background-color: green;
+    width: 100%;
+    
 }
